@@ -9,7 +9,7 @@
 <body>
   <h1>Hello World in SHA256 is<div id="shaout"></div></h1>
   <script type="module">
-    import init, { digest, digest_attch } from './digest.js';
+    import init, { digest, digest_attch } from '.web/digest.js';
     async function run() {
       await init()
       const result = digest("Hello World")
