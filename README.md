@@ -2,21 +2,21 @@
 
 Run rust code in browser.
 
-## Try it our
+## Try it out
 
 * Make sure you have installed the enviroment of rust
 * And run the following command in your terminal
 
-### Dev local
+### Development local
 
 ```
 $ git clone git@github.com:peterroe/wasm-rust-demo.git
 $ cd wasm-rust-demo
 ```
 
-### Install complie tool
+### Install complier tool
 
-For complation, We need another complation target wasm-unknown-unknown.
+For complation, We need another complation target `wasm-unknown-unknown`.
 
 ```shell
 $ rustup target add wasm32-unknown-unknown
@@ -65,7 +65,9 @@ Now you will see the directory structure as below.
 I recommend you to use `vite` to start the web server.
 
 ```shell
-$ vite --port 3000  # npm install -g vite
+$ vite -v   # checkout the version of vite or 
+vite/2.7.10 win32-x64 node-v14.18.2 # npm install -g vite
+$ vite --port 3000  # open the dev server
 ```
 
 Just run and visit http://localhost:3000
