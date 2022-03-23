@@ -4,8 +4,8 @@ Run rust code in browser.
 
 ## Try it out
 
-* Make sure you have installed the enviroment of rust
-* And run the following command in your terminal
+* Make sure you have installed the enviroment of rust.
+* And run the following command in your terminal.
 
 ### Development local
 
@@ -24,13 +24,13 @@ $ rustup target add wasm32-unknown-unknown
 
 ### Build
 
-Now you can build the project
+Now you can build the project.
 
 ```shell
 $ cargo build --target wasm32-unknown-unknown
 ```
 
-The above command will generage `digets.wasm` file in `target/wasm32-unknown-unknown/debug/` directory.
+The above command will generate `digets.wasm` file in `target/wasm32-unknown-unknown/debug/` directory.
 
 ### Convert wasm to javascript
 
@@ -40,7 +40,7 @@ Your need install a another tool to convert wasm to javascript.
 $ cargo install wasm-bindgen-cli
 ```
 
-and then convert the wasm file.
+And then convert the wasm file.
 
 ```shell
 $ wasm-bindgen-cli target/wasm32-unknown-unknown/debug/digets.wasm --out-dir target/wasm32-unknown-unknown/debug/
@@ -57,7 +57,7 @@ Now you will see the directory structure as below.
 │        └─ digets.wasm
 ├─ web
 │  └─ digets.js
-├─ index.html
+└─ index.html
 ```
 
 ## Start Web Server
@@ -66,9 +66,9 @@ I recommend you to use `vite` to start the web server.
 
 ```shell
 $ npm install -g vite   # install vite
-$ vite -v   # check the version of vite
+$ vite -v               # check the version of vite
 vite/2.7.10 win32-x64 node-v14.18.2 
-$ vite --port 3000    # open the dev server
+$ vite --port 3000      # open the dev server
 ```
 
 Just run and visit http://localhost:3000
