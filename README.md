@@ -65,9 +65,10 @@ Now you will see the directory structure as below.
 I recommend you to use `vite` to start the web server.
 
 ```shell
-$ vite -v   # checkout the version of vite or 
-vite/2.7.10 win32-x64 node-v14.18.2 # npm install -g vite
-$ vite --port 3000  # open the dev server
+$ npm install -g vite   # install vite
+$ vite -v   # check the version of vite
+vite/2.7.10 win32-x64 node-v14.18.2 
+$ vite --port 3000    # open the dev server
 ```
 
 Just run and visit http://localhost:3000
