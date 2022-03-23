@@ -43,7 +43,7 @@ $ cargo install wasm-bindgen-cli
 And then convert the wasm file.
 
 ```shell
-$ wasm-bindgen-cli target/wasm32-unknown-unknown/debug/digets.wasm --out-dir target/wasm32-unknown-unknown/debug/
+$ wasm-bindgen-cli target/wasm32-unknown-unknown/debug/digets.wasm --out-dir ./web --web
 ```
 
 Now you will see the directory structure as below.
